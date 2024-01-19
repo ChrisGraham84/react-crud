@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128.9816mm"
+   height="100.23075mm"
+   viewBox="0 0 128.9816 100.23075"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="decondevlogo1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.914906"
+     inkscape:cx="355.77425"
+     inkscape:cy="560.71334"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-37.212228,-88.016729)">
+    <path
+       style="fill:#008000;stroke-width:2"
+       d="M 75.184021,88.016729 A 51.331547,54.368065 75 0 0 38.859667,150.78107 51.331547,54.368065 75 0 0 101.69965,186.9744 Z"
+       id="path453" />
+    <path
+       style="fill:#600860;fill-opacity:1;stroke-width:2"
+       d="m 128.22156,88.016729 -26.52191,98.981131 a 54.368065,51.331547 15 0 0 62.84047,-36.1932 54.368065,51.331547 15 0 0 -36.31856,-62.787931 z"
+       id="path234" />
+    <circle
+       style="fill:#0092c0;fill-opacity:1;stroke-width:2"
+       id="path1450"
+       cx="101.69965"
+       cy="115.24294"
+       r="10.844693" />
+  </g>
+</svg>
