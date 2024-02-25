@@ -11,7 +11,7 @@
     $method = $_SERVER['REQUEST_METHOD'];
     switch($method) {
         case "GET":
-            $sql = "SELECT * FROM users";
+            $sql = "SELECT * FROM user";
             $path = explode('/', $_SERVER['REQUEST_URI']);
             if(isset($path[2]) && is_numeric($path[2])) {
                 $sql .= " WHERE id = :id";
@@ -29,7 +29,7 @@
             break;
         case 'POST':
             $user = json_decode(file_get_contents('php://input'));
-            $sql = "INSERT INTO users(id, name, email, mobile, created_at) values(null, :name, :email, :mobile, :created_at)";
+            $sql = "INSERT INTO user(id, name, email, mobile, created_at) values(null, :name, :email, :mobile, :created_at)";
             $stmt = $db->prepare($sql);
             $date = date('Y-m-d');
             $stmt->bindParam(':name', $user->name);
@@ -45,7 +45,7 @@
             break;
         case "PUT":
                 $user = json_decode( file_get_contents('php://input') );
-                $sql = "UPDATE users SET name= :name, email =:email, mobile =:mobile, updated_at =:updated_at WHERE id = :id";
+                $sql = "UPDATE user SET name= :name, email =:email, mobile =:mobile, updated_at =:updated_at WHERE id = :id";
                 $stmt = $db->prepare($sql);
                 $updated_at = date('Y-m-d');
                 $stmt->bindParam(':id', $user->id);
@@ -63,7 +63,7 @@
                 break;
         
         case "DELETE":
-                $sql = "DELETE FROM users WHERE id = :id";
+                $sql = "DELETE FROM user WHERE id = :id";
                 $path = explode('/', $_SERVER['REQUEST_URI']);
                 $stmt = $db->prepare($sql);
                 $stmt->bindParam(':id', $path[2]);
